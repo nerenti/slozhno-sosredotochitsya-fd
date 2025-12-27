@@ -6,6 +6,7 @@
 
 :root.theme-dark {
   --accent-color: #ff0070;
+  --bg-color: #000028;
   --accent-text-color: #000028;
   --text-color: #f1b2ce;
   --xl-text-color: #db00ff;
