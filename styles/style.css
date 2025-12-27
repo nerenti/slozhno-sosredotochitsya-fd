@@ -5,7 +5,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-color: var(--accent-text-color);
-  padding: var(--page-padding);
+  
 }
 a {
   color: var(--text-color);
@@ -30,6 +30,7 @@ header {
   justify-items: end;
   align-items: end;
   gap: 55px;
+  padding: var(--page-padding);
 }
 
 .decoration {
@@ -38,7 +39,7 @@ header {
   align-items: center;
   position: absolute;
   top: 10px;
-  right: 9px;
+  right: 19px;
   color: var(--accent-color);
 }
 .decoration::after {
@@ -94,12 +95,12 @@ header {
 }
 .decorated-zone::before {
   top: 10px;
-  right: 0px;
+  right: 10px;
   border-width: 1px 1px 0 0;
 }
 .decorated-zone::after {
   bottom: 10px;
-  left: 0px;
+  left: 10px;
   border-width: 0 0 1px 1px;
 }
 .header-title {
@@ -122,6 +123,7 @@ header {
   display: grid;
   gap: 50px;
   margin-block-start: var(--main-content-margin);
+  padding: var(--page-padding);
 }
 .card {
   display: grid;
@@ -157,6 +159,7 @@ footer {
   margin-block-start: var(--main-content-margin);
   align-items: center;
   justify-items: center;
+  padding: var(--page-padding);
 }
 .footer-title {
   font-weight: bold;
@@ -190,12 +193,15 @@ footer {
   }
   .decoration {
     top: 20px;
+    right: 30px;
   }
   .decorated-zone::before {
     top: 20px;
+    right: 20px;
   }
   .decorated-zone::after {
     bottom: 20px;
+    left: 20px;
   }
   .main-content {
     display: grid;
