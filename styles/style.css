@@ -265,7 +265,7 @@ footer {
   .another-title {
     grid-row: 1;
     grid-column: span 3;
-    margin-inline-end: 65vw;
+    padding-inline-end: 65vw;
   }
   .column-section .card {
     grid-column: span 1;
