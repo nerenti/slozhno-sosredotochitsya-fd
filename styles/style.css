@@ -5,7 +5,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-color: var(--bg-color);
-  
 }
 a {
   color: var(--text-color);
@@ -34,6 +33,7 @@ header {
 }
 
 .decoration {
+  font-size: 18px;
   display: var(--rec-display);
   gap: 10px;
   align-items: center;
@@ -67,6 +67,7 @@ header {
   font-size: 18px;
   padding: 2px 13px 4px;
   line-height: 1;
+  cursor: pointer;
 }
 .header__theme-menu-button:hover {
   border: 1px solid var(--button-hover);
@@ -212,7 +213,7 @@ footer {
   .card {
     grid-column: span 2;
   }
-  .card-column {
+  .same-section .card {
     grid-column: 2;
   }
   .main {
@@ -258,14 +259,15 @@ footer {
   .main-content {
     grid-template-columns: 1fr 1fr 1fr;
   }
-  .card-column {
+  .same-section .card {
     grid-column: 2 / span 2;
   }
   .another-title {
     grid-row: 1;
+    grid-column: span 3;
+    margin-inline-end: 90vh;
   }
-  .another-card {
-    grid-row: 2;
+  .column-section .card {
     grid-column: span 1;
     gap: 0;
   }
