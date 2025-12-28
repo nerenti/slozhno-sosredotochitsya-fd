@@ -216,6 +216,11 @@ footer {
   .same-section .card {
     grid-column: 2;
   }
+  .column {
+    display: grid;
+    gap: 20px;
+    grid-column: span 2;
+  }
   .main {
     gap: 80px;
   }
@@ -264,8 +269,6 @@ footer {
   }
   .another-title {
     grid-row: 1;
-    grid-column: span 3;
-    padding-inline-end: 65vw;
   }
   .column-section .card {
     grid-column: span 1;
@@ -276,5 +279,13 @@ footer {
   }
   .without-gap {
     margin-block-end: 10px;
+  }
+  .column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 2;
+    align-items: start;
+    gap: 20px;
+    grid-column: span 3;
   }
 }
