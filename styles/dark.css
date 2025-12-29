@@ -5,6 +5,7 @@
 */
 
 :root.theme-dark {
+  --accent-bg-color: #ff0070;
   --accent-color: #ff0070;
   --bg-color: #000028;
   --accent-text-color: #000028;

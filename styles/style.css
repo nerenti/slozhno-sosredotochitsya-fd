@@ -8,7 +8,7 @@
 }
 a {
   color: var(--text-color);
-  text-shadow: 2px 2px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 var(--accent-bg-color);
   text-decoration: none;
 }
 a:hover {
@@ -48,7 +48,7 @@ header {
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background-color: var(--accent-color);
+  background-color: var(--accent-bg-color);
   box-shadow: 0 0 4px 2px var(--accent-color);
 }
 .header__theme-menu {
@@ -109,11 +109,11 @@ header {
   font-size: var(--big-font-size);
   line-height: 0.83;
   color: var(--xl-text-color);
-  text-shadow: 4px 4px 0 var(--accent-color);
+  text-shadow: 4px 4px 0 var(--accent-bg-color);
 }
 .title-decor {
   font-weight: bold;
-  background-color: var(--accent-color);
+  background-color: var(--accent-bg-color);
   color: var(--accent-text-color);
 }
 .header-description {
@@ -167,7 +167,7 @@ footer {
   font-size: var(--big-font-size);
   line-height: 0.83;
   color: var(--xl-text-color);
-  text-shadow: 2px 2px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 var(--accent-bg-color);
 }
 @media (width >= 768px) {
   .page .header {
